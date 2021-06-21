@@ -1,0 +1,18 @@
+<h1>Welcome to short.com</h1>
+<p>Please enter your URL here</p>
+
+
+<%=form_for  Url.new, url: "/urls", id: "form2" do |f| %>
+  <%= f.text_area :original_url%>
+  <%= f.submit "Get Short url", id:"form" %>
+<%end%>
+
+
+<p>Here's is your details of short URL!</p>
+<div class= "short-url">
+  <p>Short URL :: <a href="https://<%= @original_url %>"><%= @short_url%></a></p>
+  <p>Url clicks count :: <%= Url.count %>
+  <p>Browser :: <%=@rh%></p>
+  <p>IP Address :: <%=@ra%></p>
+  <p>Base URL :: <%= request.base_url %>
+</div>

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Test1.iml" filepath="$PROJECT_DIR$/.idea/Test1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../geosnap/.idea/geosnap.iml" filepath="$PROJECT_DIR$/../geosnap/.idea/geosnap.iml" />
     </modules>
   </component>
 </project>
